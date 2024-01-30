@@ -1,3 +1,14 @@
+/*
+ * Tristan Moffett
+ * CS1150 (M/W)
+ * Due Date: January 31, 2024
+ * Assignment 2
+ * This assignment will show me how to obtain input from a user through
+ * the use of the keyboard, declare constants that can be used throughout
+ * the entire class, and use math operators to calculate wind chill and 
+ * convert Fahrenheit to Celsius.
+*/
+
 import java.util.Scanner;
 
 public class moffettTristanAssignment2 {
