@@ -102,11 +102,11 @@ public class moffettTristanAssignment2 {
 		// Display differences in data between both locations
 		System.out.println("-----------------------------------------------------------------------------------------------------");
 		System.out.printf("%s\t\t%.2f\t\t%.2f\t\t%.2f\t\t%.2f\t\t%.2f\n", "Differences", 
-																	    windSpeedDiff, 
-																		fahrenheitDiff, 
-																		windChillFahrenheitDiff, 
-																		celsiusDiff, 
-																		windChillCelsiusDiff);
+																	      windSpeedDiff, 
+																	      fahrenheitDiff, 
+																	      windChillFahrenheitDiff, 
+																	      celsiusDiff, 
+																	      windChillCelsiusDiff);
 
 	} // main
 
