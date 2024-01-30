@@ -37,7 +37,7 @@ public class moffettTristanAssignment2 {
 		nameLoc1 = userInput.next();
 		System.out.printf("%s", "Enter wind speed of first location: ");
 		windSpeedLoc1 = userInput.nextDouble();
-		System.out.printf("%s", "Enter the temp in Fahrenheit at first location: ");
+		System.out.printf("%s", "Enter the temp in Fahrenheit of first location: ");
 		fahrenheitLoc1 = userInput.nextDouble();
 		System.out.println();
 		
@@ -48,7 +48,7 @@ public class moffettTristanAssignment2 {
 		nameLoc2 = userInput.next();
 		System.out.printf("%s", "Enter wind speed of second location: ");
 		windSpeedLoc2 = userInput.nextDouble();
-		System.out.printf("%s", "Enter the temp in Fahrenheit at second location: ");
+		System.out.printf("%s", "Enter the temp in Fahrenheit of second location: ");
 		fahrenheitLoc2 = userInput.nextDouble();
 		System.out.println();
 		
@@ -77,11 +77,11 @@ public class moffettTristanAssignment2 {
 		windChillCelsiusDiff = Math.abs(windChillCelsiusLoc1 - windChillCelsiusLoc2);
 		
 		// Display chart of data
-		System.out.println("*********************************************************************************************");
-		System.out.printf("%55s\n", "Wind Chill Calculator");
-		System.out.println("*********************************************************************************************\n");
-		System.out.println("Location\tWind Speed\tTemperature(F)\tWind Chill(F)\tTemperature(C)\tWind Chill(C)");
-		System.out.println("---------------------------------------------------------------------------------------------");
+		System.out.println("*****************************************************************************************************");
+		System.out.printf("%62s\n", "Wind Chill Calculator");
+		System.out.println("*****************************************************************************************************\n");
+		System.out.println("Location\t\tWind Speed\tTemperature(F)\tWind Chill(F)\tTemperature(C)\tWind Chill(C)");
+		System.out.println("-----------------------------------------------------------------------------------------------------");
 		
 		// Display data related to location one
 		System.out.printf("%s\t\t%.2f\t\t%.2f\t\t%.2f\t\t%.2f\t\t%.2f\n", nameLoc1, 
@@ -100,8 +100,8 @@ public class moffettTristanAssignment2 {
 																		  windChillCelsiusLoc2);
 		
 		// Display differences in data between both locations
-		System.out.println("---------------------------------------------------------------------------------------------");
-		System.out.printf("%s\t%.2f\t\t%.2f\t\t%.2f\t\t%.2f\t\t%.2f\n", "Differences", 
+		System.out.println("-----------------------------------------------------------------------------------------------------");
+		System.out.printf("%s\t\t%.2f\t\t%.2f\t\t%.2f\t\t%.2f\t\t%.2f\n", "Differences", 
 																	    windSpeedDiff, 
 																		fahrenheitDiff, 
 																		windChillFahrenheitDiff, 
