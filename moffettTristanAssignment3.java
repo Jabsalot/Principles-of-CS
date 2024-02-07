@@ -47,7 +47,7 @@ public class moffettTristanAssignment3 {
 		   (membershipChoice == 2) || 
 		   (membershipChoice == 3)) 
 		{
-			// Calculate to total
+			// Calculate membership cost
 			if(membershipChoice == 1) {
 				membershipCost += platinumCost;
 				membershipName = "Platinum Membership";
@@ -73,9 +73,6 @@ public class moffettTristanAssignment3 {
 			System.out.printf("%s%n", "1\t\tNo add on\t\t" + "$0.00");
 			System.out.printf("%s%.2f%n", "2\t\tChildcare\t\t$", childCareCost, "\n");
 			System.out.printf("%s%.2f%n%n", "3\t\tPersonal Training\t$", personalTrainerCost, "\n\n");
-			//System.out.println("1\t\tNo add on\t\t" + "$0.00");
-			//System.out.println("2\t\tChildcare\t\t" + "$" + childCareCost);
-			//System.out.println("3\t\tPersonal Training\t" + "$" + personalTrainerCost + "\n");
 
 			// Prompt user for input
 			System.out.printf("%s", "Select an add-on option: ");
@@ -90,7 +87,7 @@ public class moffettTristanAssignment3 {
 			   (addOnChoice == 2) ||
 			   (addOnChoice == 3))
 			{
-				// Calculate to total
+				// Calculate to add-on cost
 				if(addOnChoice == 1) {
 					addOnCost += 0.00;
 					addOnName = "No Add-On";
